@@ -1,0 +1,67 @@
+h1{
+    background-color: plum;
+    color: black;
+}
+.colorBlack{
+    color: antiquewhite;
+}
+#colorRed{
+    color: red;
+}
+*{
+
+}
+
+.class1, .class2{
+    color: red;
+}
+h1, p{
+    color: blue;
+}
+
+h1.colorWhite{
+    color: red;
+}
+
+div > p {
+    color: red;
+}
+
+div p:nth-child(2) {
+    background-color: black;
+}
+div p:nth-child(2) {
+    background-color: black;
+}
+a:hover{
+font-size: 24px;
+}
+a:active{
+font-size: 63px;
+}
+
+p:first-child{
+
+}
+p::after{
+
+}
+p::before{
+
+}
+input:required{
+
+}
+input:required{
+
+}
+
+[href]:{
+
+}
+[href='valcr']:{
+
+}
+input[type='email']{
+    
+}
