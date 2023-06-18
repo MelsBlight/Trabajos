@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 600px;
+  }
+  
+  .big-square {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-color: lightblue;
+    padding: 200px;
+  }
+  
+  .small-square1 {
+    background-color: lightgreen;
+    padding: 90px;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .small-square2 {
+    background-color: lightgreen;
+    padding: 90px;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+  }
