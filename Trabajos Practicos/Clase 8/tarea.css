@@ -1,28 +1,27 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    width: 600px;
-  }
-  
-  .big-square {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-    background-color: lightblue;
-    padding: 200px;
-  }
-  
-  .small-square1 {
-    background-color: lightgreen;
-    padding: 90px;
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
-  }
-  
-  .small-square2 {
-    background-color: lightgreen;
-    padding: 90px;
-    grid-column: 3 / span 1;
-    grid-row: 2 / span 1;
-  }
+.body{
+  background-color: violet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-layout{
+  border: 10px solid black;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  height: 750px;
+}
+.cuadro1{
+  grid-column: 1;
+  grid-row: 1/3;
+  background-color: teal;
+}
+.cuadro2{
+  grid-column: 2;
+  grid-row: 1/2;
+  background-color: darkred;
+}
+
+.cuadro3{
+  grid-column: 2;
+  grid-row: 2/2;
+  background-color: blueviolet;
+}
