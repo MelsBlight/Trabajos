@@ -1,0 +1,38 @@
+.body{
+    background-color: violet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-layout{
+    border: 15px solid cornflowerblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    height: 750px;
+}
+.one{
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: teal;
+}
+.two{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: darkred;
+}
+
+.three{
+    grid-column: 2;
+    grid-row: 2/2;
+    background-color: blueviolet;
+}
+
+.four{
+    grid-column: 2;
+    grid-row: 3/3;
+    background-color: slateblue;
+}
+.five{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: cadetblue;
+}
