@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width: 100px;
+    height: 320px;
+  }
+  
+  .square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .yellow {
+    background-color: rgb(145, 175, 9);
+    z-index: 3;
+    top: 0;
+    left: 0;
+  }
+  
+  .orange {
+    background-color: orangered;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+  }
+  
+  .maroon {
+    background-color: maroon;
+    z-index: 1;
+    top: 40%;
+    left: 40%;
+  }
+  
