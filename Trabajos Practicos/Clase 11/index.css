@@ -1,0 +1,19 @@
+.container {
+    background-color: rgb(16, 54, 54);
+    height: 100px;
+    max-width: 300%;
+}
+
+.container-fluid {
+    background-color: rgb(20, 6, 46);
+    height: 660px;
+    
+}
+
+.text-danger {
+    color: rgb(255, 255, 255) !important;
+}
+
+.text-color {
+    color: rgb(255, 255, 255);
+}
