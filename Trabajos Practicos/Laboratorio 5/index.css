@@ -1,0 +1,11 @@
+.not-padding{
+    padding: 0px !important;
+}
+.carousel-item{
+    height: 60vh;
+    width: 80vh;
+}
+.one{
+    background-image: url(https://picsum.photos/id/237/800/600);
+    background-size: 100% 100%;
+}

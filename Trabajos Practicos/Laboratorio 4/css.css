@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+header .logo img {
+    max-width: 10%;
+}
+
+header .logo {
+    padding: 20px;
+    width: 10%;
+    background-image: url(LOVE_SHIPPS__1_-removebg-preview.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration:solid;
+    color: black;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+header nav ul li a:hover {
+    color: rgb(255, 5, 5);
+    border-bottom: 2px solid black;
+    font-size: 22px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+main {
+    display:flex;
+    background-image: url(https://img.freepik.com/premium-photo/lgbt-colors-paper_23-2148120262.jpg?w=2000);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 500px;
+}
+main .titulo{
+    color: white;
+}
+main .card {
+    width: 23%;
+    background-color: rgb(173, 144, 226);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid 1px rgb(7, 7, 7);
+    height: 350px;
+
+}
+main .card .image img {
+    max-width: 100%;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main .card .precio {
+    margin: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    border-left: 2px solid rgba(0, 0, 0, 0.699);
+    text-align: left;
+}
+
+main .card .titulo {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+main .card .cart {
+    display: none;
+}
+
+main .card .precio:hover {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+main .card .precio:hover .cart {
+    display: inline-block;
+}
+
+main .card .content-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    background-image: url(https://64.media.tumblr.com/fb3c092cd5b0272432eccd251104916d/104bdbda47af481a-bb/s2048x3072/3e16d48f0edff445beec281a701b811aa5e78020.pnj)
+}
+
+.aside aside {
+    display: grid;
+    grid-gap: 30px;
+    margin: 20px;
+    grid-template-areas: "1 2"
+        "3 4"
+        "5 6"
+       ;
+}
+
+.aside aside img {
+    margin-bottom: 0px;
+    max-width: 55%;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.aside aside img:hover{
+    border: solid 2px rgb(173, 144, 226);
+    margin-bottom: 10px;
+}
+
+.aside aside .img1 {
+    grid-area: 1;
+}
+
+.aside aside.img2 {
+    grid-area: 2;
+}
+
+.aside aside.img3 {
+    grid-area: 3;
+}
+
+.aside aside.img4 {
+    grid-area: 4;
+}
+
+.aside aside.img5 {
+    grid-area: 5;
+}
+
+.aside aside.img6 {
+    grid-area: 6;
+}
+
+.aside aside.img7 {
+    grid-area: 7;
+}
+
+.aside aside.img8 {
+    grid-area: 8;
+}
+footer {
+    background-image: url(https://64.media.tumblr.com/fb3c092cd5b0272432eccd251104916d/104bdbda47af481a-bb/s2048x3072/3e16d48f0edff445beec281a701b811aa5e78020.pnj);
+    color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+footer .redes{
+    padding-left: 550px;
+}
+footer .botonredes{
+    margin: 40px;
+    width: 70px;
+}
+footer .botonredes i{
+    color: rgb(173, 144, 226);
+    font-size: 40px;
+}
+footer .botonredes:hover{
+    background: white;
+}
