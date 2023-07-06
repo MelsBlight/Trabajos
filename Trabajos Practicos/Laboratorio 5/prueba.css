@@ -1,0 +1,303 @@
+.letra1{
+    font-family: 'Amita', cursive;
+font-family: 'Rammetto One', cursive;
+}
+.letra2{
+    font-family: 'Amita', cursive;
+    font-family: 'Rammetto One', cursive;
+}
+header{
+    display: flex;
+}
+
+.navbar{
+    background-color: #a03939 !important;
+}
+#logo{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.colorletramenu{
+    color: black !important;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.colorletramenu:hover{
+    color: white !important;    
+}
+.dropdown-item{
+    background-color: #a03939 !important;
+    text-decoration: none !important;
+}
+.ubicacion{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+
+} 
+.menu1{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a03939 !important;
+
+}
+.menu2{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+
+}
+nav a i{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);  
+}
+nav a i:hover{
+    color: white;  
+}
+#botoncarrito{
+    margin-left: 500px;
+    border-radius: 20px;
+}
+#main{
+    margin-top: 120px;
+    padding: 0px !important;
+}
+main{
+    padding: 0px !important;
+}
+.tamaño{
+    height: 70vh;
+    width: 107%;
+}
+#imagen1{
+    width: 245px;
+    padding: 30px;
+    margin: 0px;
+    height: 300px;
+}
+.z-index1{
+    z-index: 1;
+    position: absolute;
+}
+.z-index2{
+    z-index: 2;
+    margin-top: 200px;
+    position:relative;
+    margin-left: 145px;
+    background: #a03939;
+    width: 100px;
+
+}
+.tamaño2{
+margin-left: 122px;  
+}
+.marginbuton{
+    margin-top: 239px;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+}
+h2 span{
+    z-index: 100;
+    position: relative;
+    padding: 15px;
+}
+h2 ::after{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    left: 550px;
+    top: 55%;
+    background: #a03939;
+    z-index: 50;
+}
+h2 ::before{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    padding-right: 0px;
+    right: 108%;
+    top: 55%;
+    background: #a03939;
+    z-index: 50;
+}
+.centro1{
+    display: flex;
+}
+
+.cardtamaño{
+    width: 220px; 
+    height: 250px; 
+    margin: 0px; 
+     border: 1px solid black;
+}
+
+#centro{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 70px;
+    border: none;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+}
+.card-text2{
+    text-align: justify;
+    width: 230px;
+}
+.buttonmmodal{
+    width: 170px;
+    background: #a03939;
+    border: none;
+    justify-content: right;
+}
+
+.contacto{
+    height: 500px;
+    width: 41%;
+    border: 1px solid black;
+    background-color: #a03939;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+   
+}
+#logo2{
+    margin-top: 15px; 
+    width: 200px; 
+    height: 200px;
+    position: relative;
+}
+#imagen2{
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 245px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.positioncontacto{
+    margin-left: 110px;
+}
+
+
+.segundagaleria{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+.btn-success{
+    margin-bottom: 30px;
+}
+footer{
+    width: 101%; 
+    height: 30vh;
+    background: #a03939;
+    justify-content: center;
+    text-align: center;
+}
+footer .img3{
+    width: 50px;
+}
+.img3:hover{
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+#items{
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+}
+#items:hover{
+    color: white;
+}
+
+.imgventana1{
+    width: 90%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.imgventana1-2{
+    width: 35%;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    position: relative;
+
+}
+.imgventana1-3{
+    width: 33%;
+    height: 19.5%;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    position: relative;
+
+}
+.ventana{
+    text-align: justify;
+}
+h6{
+    color: black;
+}
+.Precio{
+    margin-top: 10px;
+}
+.Precio p{
+    font-weight:bolder ;
+}
+.corazon{
+    display: flex;
+}
+.corazon input[type="checkbox"]{
+    display: none;
+}  
+.corazon .corazon label{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+ 
+}
+.corazon input[type="checkbox"]:checked + label{
+    color: #a03939;
+}
+.corazon .corazon label:hover{
+        color: #a03939;
+}
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #353232;
+    --bs-btn-border-color: #fdfffe;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #151616;
+}

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHIPPS</title>
+  <link rel="icon" type="image/png" href="LOVE_SHIPPS__1_-removebg-preview.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="prueba.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amita&family=Rammetto+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amita&family=Rammetto+One&family=Saira:wght@200&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="fixed-top">
+    <div class="menu1">
+      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+          <h5 class="text-body-emphasis h4"></h5>
+          <span class="text-body-secondary"></span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <button class="navbar-toggler ubicacion" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div class="menu2">
+      <nav class="navbar navbar-expand-lg  bg-body-primary navbar bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img id="logo" src="LOVE_SHIPPS__1_-removebg-preview.png" alt="Logo" width="120" height="120" class="d-inline-block align-text-top">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorletramenu" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Peluches
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item colorletramenu" href="#">Series</a></li>
+                  <li><a class="dropdown-item colorletramenu" href="#">Peliculas</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item colorletramenu" href="#">Otros</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorletramenu" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Personajes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item colorletramenu" href="#">Toh</a></li>
+                  <li><a class="dropdown-item colorletramenu" href="#">Supernatural</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item colorletramenu" href="#">Lista completa</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorletramenu" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Otros
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item colorletramenu" href="#">Posters</a></li>
+                  <li><a class="dropdown-item colorletramenu" href="#">Pins</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item colorletramenu" href="#">Libros</a></li>
+                </ul>
+              </li>
+              <li class="nav-item link">
+                <a class="nav-link colorletramenu" href="#">
+                  Contacto
+                </a>
+              </li>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <button id="botoncarrito" type="button" class="btn btn-secondary">Carrito / $0 <i
+                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </nav>
+    </div>
+    </div>
+  </header>
+
+  <div id="main" class="container-fluid">
+    <div class="row">
+      <div class="col-md-6  col-sm-12">
+        <main class="container-fluid">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner tamaño">
+              <div class="carousel-item active">
+                <img src="good omens.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="toh.jpg"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="shera.jpg"
+                  class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </main>
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        <aside>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="z-index1"><img id="imagen1"
+                  src="libro1goodomens.jpg"
+                  alt=""></div>
+              <button type="button" class="btn btn-primary buttonmmodal1 z-index2" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Mas
+              </button>
+              <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Productos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="imgventana1" src="libro1goodomens.jpg" alt="Imagen de muestra">
+                            <img class="imgventana1-2" src="libro good omens 2.jpg" alt="">
+                            <img class="imgventana1-3" src="libro good omens 3.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="ventana">
+                              <h5>Good Omens</h5>
+                              <p>El libro de la famosa serie de Amazon Prime Video</p>
+                              <p>Buenos Presagios (1990) es una novela escrita por Terry Pratchett y Neil Gaiman.
+                                Buenos Presagios es una comedia de tono irónico sobre el tema de la encarnación del anticristo,
+                                el Apocalipsis inminente y la eterna discusión sobre el equilibrio entre el bien y el mal.</p>
+                            </div>
+                            <div class="Precio">
+                              <h6>Precio</h6>
+                              <p>$ 3.500</p>
+                            </div>
+                            <div class="corazon">
+                              <button type="button" class="btn btn-secondary">Agregar<i
+                                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                              <div class="corazon">
+                                <label for="10"><i class="fa-solid fa-heart"></i></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar cambios</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="z-index1"><img id="imagen1" src="libro good omens 2.jpg" alt=""></div>
+              <button type="button" class="btn btn-primary z-index2" data-bs-toggle="modal"
+                data-bs-target="#exampleModal1">
+                Mas
+              </button>
+              <div class="modal fade modal-lg" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Productos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="imgventana1" src="libro good omens 2.jpg">
+                            <img class="imgventana1-2" src="libro good omens 3.jpg" alt="Imagen de muestra">
+                            <img class="imgventana1-3" src="libro1goodomens.jpg" alt="Imagen de muestra">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="ventana">
+                              <h5>Good Omens</h5>
+                              <p>El libro de la famosa serie de Amazon Prime Video</p>
+                              <p>Buenos Presagios (1990) es una novela escrita por Terry Pratchett y Neil Gaiman.
+                                Buenos Presagios es una comedia de tono irónico sobre el tema de la encarnación del anticristo,
+                                el Apocalipsis inminente y la eterna discusión sobre el equilibrio entre el bien y el mal.</p>
+                            </div>
+                            <div class="Precio">
+                              <h6>Precio</h6>
+                              <p>$ 3.500</p>
+                            </div>
+                            <div class="corazon">
+                              <button type="button" class="btn btn-secondary">Agregar<i
+                                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                              <div class="corazon">
+                                <label for="28"><i class="fa-solid fa-heart"></i></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Agregar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="z-index1"><img id="imagen1"
+                  src="supernatural dvd.jpg"
+                  alt=""></div>
+              <button type="button" class="btn btn-primary z-index2 tamaño2" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2">
+                Mas
+              </button>
+              <div class="modal fade modal-lg" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Productos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="modal-body">
+                      <form class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="imgventana1" src="supernatural dvd.jpg" alt="Imagen de muestra">
+                            <img class="imgventana1-2" src="supernatural dvd.jpg" alt="">
+                            <img class="imgventana1-3" src="supernatural dvd.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="contenidoventana">
+                              <h5>Supernatural DVD Temporada 15</h5>
+                              <p>Temporda 15 de Supernatural</p>
+                              <p>La decimoquinta y última temporada de Supernatural,
+                                una serie de televisión estadounidense de fantasía oscura creada por Eric Kripke</p>
+                            </div>
+                            <div class="Precio">
+                              <h6>Precio</h6>
+                              <p>$ 1.500</p>
+                            </div>
+                            <div class="corazon">
+                              <button type="button" class="btn btn-secondary">Agregar<i
+                                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                              <div class="corazon">
+                                <label for="37"><i class="fa-solid fa-heart"></i></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+            <div class="col-md-4">
+              <div class="z-index1"><img id="imagen1"
+                  src="shera 1.jpg" alt=""></div>
+              <button type="button" class="btn btn-primary z-index2 marginbuton" data-bs-toggle="modal"
+                data-bs-target="#exampleModal4">
+                Mas
+              </button>
+              <div class="modal fade modal-lg" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Productos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <form class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="imgventana1" src="shera 1.jpg" alt="Imagen de muestra">
+                            <img class="imgventana1-2" src="shera 2.jpg" alt="">
+                            <img class="imgventana1-3" src="shera 3.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="contenidoventana">
+                              <h5>Poster She-ra</h5>
+                              <p>Poster de She-ra</p>
+                              <p>Poster</p>
+                            </div>
+                            <div class="Precio">
+                              <h6>Precio</h6>
+                              <p>$ 500</p>
+                            </div>
+                            <div class="corazon">
+                              <button type="button" class="btn btn-secondary">Agregar<i
+                                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                              <div class="corazon">
+                                <label for="46"><i class="fa-solid fa-heart"></i></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="z-index1"><img id="imagen1" src="poster sher1.jpg" alt=""></div>
+              <button type="button" class="btn btn-primary z-index2 marginbuton" data-bs-toggle="modal"
+                data-bs-target="#exampleModal5">
+                Mas
+              </button>
+              <div class="modal fade modal-lg" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Productos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <form class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="imgventana1" src="poster sher1.jpg" alt="Imagen de muestra">
+                            <img class="imgventana1-2" src="poster sher2.jpg" alt="">
+                            <img class="imgventana1-3" src="poster sher3.jpg" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="contenidoventana">
+                              <h5>Poster Sherlock</h5>
+                              <p>Poster Sherlock</p>
+                              <p>Poster</p>
+                            </div>
+                            <div class="Precio">
+                              <h6>Precio</h6>
+                              <p>$ 500</p>
+                            </div>
+                            <div class="corazon">
+                              <button type="button" class="btn btn-secondary">Agregar<i
+                                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                              <div class="corazon">
+                                <label for="55"><i class="fa-solid fa-heart"></i></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="z-index1"><img id="imagen1"
+                  src="posterstoh.jpg" alt=""></div>
+              <button type="button" class="btn btn-primary z-index2 marginbuton tamaño2" data-bs-toggle="modal"
+                data-bs-target="#exampleModal6">
+                Mas
+              </button>
+              <div class="modal fade modal-lg" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Productos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <form class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img class="imgventana1" src="posterstoh.jpg" alt="Imagen de muestra">
+                            <img class="imgventana1-2" src="posterstoh2.jpg" alt="">
+                            <img class="imgventana1-3" src="posterstoh3.webp" alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <div class="contenidoventana">
+                              <h5>Poster TOH</h5>
+                              <p>Poster TOH</p>
+                              <p>Poster</p>
+                            </div>
+                            <div class="Precio">
+                              <h6>Precio</h6>
+                              <p>$ 500</p>
+                            </div>
+                            <div class="corazon">
+                              <button type="button" class="btn btn-secondary">Agregar<i
+                                  class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                              <div class="corazon">
+                                <label for="64"><i class="fa-solid fa-heart"></i></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      </aside>
+    </div>
+  </div>
+
+  <div id="centro" class="container-fluid">
+    <div class="card" style="width: 18rem;">
+      <img src="download.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">LGBT</h5>
+        <p class="card-text">Somos parte de la comunidad LGBT</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="94850967-abra-la-mano-con-el-icono-de-tarjeta-de-crédito-pagos-seguros-ilustración-línea-delgada-dibujo-de.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pago</h5>
+        <p class="card-text">Tarjeta visa o mastercard</p>
+
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="fan.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fans</h5>
+        <p class="card-text">Emprendiendo de fans para fans
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+
+    <h2><span>Ultimas cosas nuevas</span></h2>
+
+
+  </div>
+  <div class="centro1 container-fluid">
+    <div class="card" style="width: 15rem;">
+      <img src="destiel remera.jpg" class="card-img-top cardtamaño" alt="...">
+      <div class="card-body">
+        <p class="card-text card-text2">Remera Destiel</p>
+        <p class="card-text card-text2">$ 3.500</p>
+        <button type="button" class="btn btn-primary buttonmmodal" data-bs-toggle="modal"
+          data-bs-target="#exampleModal7">
+          Mas
+        </button>
+        <div class="modal fade modal-lg" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Remera</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="imgventana1" src="destiel remera.jpg" alt="Imagen de muestra">
+                      <img class="imgventana1-2" src="destiel remera.jpg" alt="">
+                      <img class="imgventana1-3" src="destiel remera.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="contenidoventana">
+                        <h5>Remera Destiel</h5>
+                        <p>Remera del shipp Destiel</p>
+                        <p>Remera Destiel. Shipp Dean & Castiel</p>
+                      </div>
+                      <div class="Precio">
+                        <h6>Precio</h6>
+                        <p>$ 3.500</p>
+                      </div>
+                      <div class="corazon">
+                        <button type="button" class="btn btn-secondary">Agregar<i
+                            class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                        <div class="corazon">
+                          <label for="73"><i class="fa-solid fa-heart"></i></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="johnlock remrra.jpg"
+        class="card-img-top cardtamaño" alt="...">
+      <div class="card-body">
+        <p class="card-text card-text2">Remera Johnlock</p>
+        <p class="card-text card-text2">$ 3.500</p>
+        <button type="button" class="btn btn-primary buttonmmodal" data-bs-toggle="modal"
+          data-bs-target="#exampleModal8">
+          Mas
+        </button>
+        <div class="modal fade modal-lg" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="imgventana1" src="johnlock remrra.jpg" alt="Imagen de muestra">
+                      <img class="imgventana1-2" src="johnlock remrra.jpg" alt="">
+                      <img class="imgventana1-3" src="johnlock remrra.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="contenidoventana">
+                        <h5>Remera Johnlock</h5>
+                        <p>Remera Johnlock. Remera del shipp Watson & Sherlock</p>
+                        <p>Remera Johnlock</p>
+                      </div>
+                      <div class="Precio">
+                        <h6>Precio</h6>
+                        <p>$ 3.500</p>
+                      </div>
+                      <div class="corazon">
+                        <button type="button" class="btn btn-secondary">Agregar<i
+                            class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                        <div class="corazon">
+                          <label for="82"><i class="fa-solid fa-heart"></i></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="remera go.jpg" class="card-img-top cardtamaño" alt="...">
+      <div class="card-body">
+        <p class="card-text card-text2">Remera de Ineffable Husbands</p>
+        <p class="card-text card-text2">$ 3.500</p>
+        <button type="button" class="btn btn-primary buttonmmodal" data-bs-toggle="modal"
+          data-bs-target="#exampleModal9">
+          Mas
+        </button>
+        <div class="modal fade modal-lg" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="imgventana1" src="remera go.jpg" alt="Imagen de muestra">
+                      <img class="imgventana1-2" src="remera go.jpg" alt="">
+                      <img class="imgventana1-3" src="remera go.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="contenidoventana">
+                        <h5>Remera de Ineffable Husbands</h5>
+                        <p>Remera del shipp Ineffable Husbands de la serie Good Omens</p>
+                        <p>Remera de Good Omens, personajes Crowley & Aziraphale</p>
+                      </div>
+                      <div class="Precio">
+                        <h6>Precio</h6>
+                        <p>$ 3.500</p>
+                      </div>
+                      <div class="corazon">
+                        <button type="button" class="btn btn-secondary">Agregar<i
+                            class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                        <div class="corazon">
+                          <label for="91"><i class="fa-solid fa-heart"></i></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="toh remera.jpg" class="card-img-top cardtamaño" alt="...">
+      <div class="card-body">
+        <p class="card-text card-text2">Remera de Lumity</p>
+        <p class="card-text card-text2">$ 3.500</p>
+        <button type="button" class="btn btn-primary buttonmmodal" data-bs-toggle="modal"
+          data-bs-target="#exampleModal10">
+          Mas
+        </button>
+        <div class="modal fade modal-lg" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="imgventana1" src="toh remera.jpg" alt="Imagen de muestra">
+                      <img class="imgventana1-2" src="toh remera.jpg" alt="">
+                      <img class="imgventana1-3" src="toh remera.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="contenidoventana">
+                        <h5>Remera de Lumity</h5>
+                        <p>Remera de Lumity, serie The Owl House</p>
+                        <p>Remera del shipp Lumity de la serie The Owl House</p>
+                      </div>
+                      <div class="Precio">
+                        <h6>Precio</h6>
+                        <p>$ 3.500</p>
+                      </div>
+                      <div class="corazon">
+                        <button type="button" class="btn btn-secondary">Agregar<i
+                            class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                        <div class="corazon">
+                          <label for="100"><i class="fa-solid fa-heart"></i></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="remera shera.webp"
+        class="card-img-top cardtamaño" alt="...">
+      <div class="card-body">
+        <p class="card-text card-text2">Remera de Catradora</p>
+        <p class="card-text card-text2">$ 3.500</p>
+        <button type="button" class="btn btn-primary buttonmmodal" data-bs-toggle="modal"
+          data-bs-target="#exampleModal11">
+          Modelos
+        </button>
+        <div class="modal fade modal-lg" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img class="imgventana1" src="remera shera.webp" alt="Imagen de muestra">
+                      <img class="imgventana1-2" src="remera shera.webp" alt="">
+                      <img class="imgventana1-3" src="remera shera.webp" alt="">
+                    </div>
+                    <div class="col-md-6">
+                      <div class="contenidoventana">
+                        <h5>Remera Catradora</h5>
+                        <p>Remera Catradora, She-ra</p>
+                        <p>Remera del shipp Catra & Adora de la serie She-ra</p>
+                      </div>
+                      <div class="Precio">
+                        <h6>Precio</h6>
+                        <p>$ 3.500</p>
+                      </div>
+                      <div class="corazon">
+                        <button type="button" class="btn btn-secondary">Agregar<i
+                            class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                        <div class="corazon">
+                          <label for="109"><i class="fa-solid fa-heart"></i></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="segundo"><span>Redes sociales:</span></h2>
+
+
+  <section class="container-fluid">
+    <div class="row">
+      <div id="margen22" class="col-md-6  col-sm-12">
+        <div id="contenedor-contacto" class="container-fluid">
+          <div class="positioncontacto">
+            <div class="contacto">
+              <div>
+                <img id="logo2" src="LOVE_SHIPPS__1_-removebg-preview.png" alt="">
+                <p>@Ships</p>
+                <button type="button" class="btn btn-success">Seguir</button>
+                <p class="letra1">Ships</p>
+                <p class="letra2">Tu lugar de ships<i class="fa-solid fa-face-grin-hearts" style="color: #ffffff;"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="segundagaleria">
+          <div class="row">
+            <div class="col-md-4"><img id="imagen2" src="good omens.jpg"></div>
+            <div class="col-md-4"><img id="imagen2" src="sherlock.jpg" alt=""></div>
+            <div class="col-md-4"><img id="imagen2" src="shera.jpg"></div>
+            <div class="col-md-4"><img id="imagen2"
+                src="toh.jpg" alt=""></div>
+            <div class="col-md-4"><img id="imagen2" src="supernatural.jpg" alt=""></div>
+            <div class="col-md-4"><img id="imagen2"
+                src="dvd supernatural.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <div>
+      <a href="https://www.mastercard.com.ar/es-ar.html" target="_blank"><img class="img3" src="tarjeta-MasterCard.jpg"></a>
+      <a href="https://www.visa.com.ar/" target="_blank"><img class="img3" src="visa.jpg"></a>
+    </div>
+    <div>
+      <a id="items" href="#">Nosotros</a>
+      <a id="items" href="#">Entrega</a>
+      <a id="items" href="#">Contacto</a>
+    </div>
+    <p>Ships<i class="fa-sharp fa-solid fa-copyright"></i>Copyright</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
