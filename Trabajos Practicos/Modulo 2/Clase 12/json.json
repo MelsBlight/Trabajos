@@ -1,0 +1,5 @@
+{
+    "nombre":"Rubius",
+    "Empleado":{"nombre":"Auron","apellido":"Play"},
+    "Empleados":["Willy","Vegetta"]
+}
